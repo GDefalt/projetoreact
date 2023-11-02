@@ -1,7 +1,15 @@
+
+
+
+
 function SignIn() {
   return (
     <>
-      <h1>Estamos dentro de você Nando !!!</h1>
+      <form>
+    <label htmlFor="nome"></label>
+    <input type="text" id="nome" name="nome" placeholder="Insira seu nome"/>
+
+      </form>
     </>
   )
 }
