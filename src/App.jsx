@@ -1,4 +1,4 @@
-import AppRouter from '../routers/router'
+import AppRouter from './routes/router'
 
 import './global.css'
 
