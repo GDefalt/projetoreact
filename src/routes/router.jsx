@@ -7,7 +7,7 @@ function AppRouter() {
       <Routes>
         {ROUTES.map((route) => (
           <Route
-            key={route.helmt.title}
+            key={route.meta.title}
             path={route.path}
             element={route.component}
           />

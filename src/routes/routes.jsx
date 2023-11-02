@@ -1,11 +1,11 @@
-import { SignIn, SignUp } from "./src/pages";
-
+import SignIn from "../pages/SignIn/SignIn"
+import SignUp from "../pages/SignUp/SignUp"
 
 export const ROUTES = [
   {
     path: "/",
     label: "Cadastro",
-    helmt: {
+    meta: {
       title: "Cadastro",
       description: "",
       keywords: "",
@@ -14,9 +14,9 @@ export const ROUTES = [
     component: <SignIn />,
   },
   {
-    path: "/SignUp",
+    path: "/signup",
     label: "Login",
-    helmt: {
+    meta: {
       title: "Login",
       description: "",
       keywords: "",
@@ -24,4 +24,4 @@ export const ROUTES = [
     icon: "",
     component: <SignUp />,
   },
-];
+]

@@ -1,9 +1,9 @@
 function SignIn() {
-  return(
+  return (
     <>
-      <h1>Dário = Sr MAMAS!!!!</h1>
+      <h1>Cadastro</h1>
     </>
-  );
+  )
 }
 
-export default SignIn;
+export default SignIn
