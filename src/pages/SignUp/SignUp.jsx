@@ -1,7 +1,7 @@
 function SignUp() {
   return(
     <>
-      <h1>Força Nando!!!</h1>
+      <h1>Força Nando !!!</h1>
     </>
   );
 }

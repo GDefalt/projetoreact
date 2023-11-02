@@ -1,4 +1,4 @@
-import { SignIn, SignUp } from "./src/pages";
+import { SignIn, SignUp } from "./src/pages/";
 
 
 export const ROUTES = [
