@@ -1,0 +1,7 @@
+#signUp {
+  width: 60rem;
+}
+
+#signUp > fieldset {
+  flex-direction: column;
+}
