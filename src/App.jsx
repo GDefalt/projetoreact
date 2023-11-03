@@ -1,10 +1,8 @@
-import AppRouter from './routes/router'
+import AppRouter from "./routes/router"
 
-import './global.css'
-
+import "./global.css"
 
 function App() {
-
   return (
     <>
       <AppRouter></AppRouter>

@@ -1,4 +1,7 @@
-import { saveDataToLocalStorage, getDataFromLocalStorage } from './LocalStorageUtils';
+import {
+  saveDataToLocalStorage,
+  getDataFromLocalStorage,
+} from "./LocalStorageUtils"
 
 export const handleSubmit = (formData) => {
   const dadosUsuario = {
@@ -7,14 +10,11 @@ export const handleSubmit = (formData) => {
     password: formData.password,
     date: formData.date,
     state: formData.state,
-    country: formData.country
-  };
-
-  const dadosAntigos = getDataFromLocalStorage('dadosUsuarios') || [];
-  const novosDados = [...dadosAntigos, dadosUsuario];
-
-  saveDataToLocalStorage('dadosUsuarios', novosDados);
-
-
+    country: formData.country,
   }
 
+  const dadosAntigos = getDataFromLocalStorage("dadosUsuarios") || []
+  const novosDados = [...dadosAntigos, dadosUsuario]
+
+  saveDataToLocalStorage("dadosUsuarios", novosDados)
+}
