@@ -1,5 +1,6 @@
 import SignIn from "../pages/SignIn/SignIn"
 import SignUp from "../pages/SignUp/SignUp"
+import Home from "../pages/home/home"
 
 export const ROUTES = [
   {
@@ -23,5 +24,16 @@ export const ROUTES = [
     },
     icon: "",
     component: <SignUp />,
+  },
+  {
+    path: "/home",
+    label: "Home",
+    meta: {
+      title: "HomePage",
+      description: "",
+      keywords: "",
+    },
+    icon: "",
+    component: <Home />,
   },
 ]

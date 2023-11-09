@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import NotFound from "../pages/notFound/notFound"
 import { ROUTES } from "./routes"
 
 function AppRouter() {
@@ -12,7 +13,7 @@ function AppRouter() {
             element={route.component}
           />
         ))}
-        <Route path="*" element={<h1>Não encontrado</h1>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   )
