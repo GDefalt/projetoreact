@@ -1,12 +1,12 @@
 .footer {
     display: flex;
-    position: absolute;
+  position: absolute;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 9%;
     background: white;
-    bottom: 0;
+  bottom: 0;
     min-width: 100vw;
 
   }

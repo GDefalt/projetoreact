@@ -20,7 +20,7 @@ function SignUp() {
 
     if (user) {
       alert("Login bem-sucedido!")
-      window.location.href = "/dashboard" // Tem que mudar o caminho depois sr mamas
+      window.location.href = "/home"
     } else {
       alert("Usuário ou senha incorretos")
     }

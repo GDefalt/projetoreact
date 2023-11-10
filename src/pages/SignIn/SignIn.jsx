@@ -12,7 +12,7 @@ import emailPreenchidoSVG from "../assets/emailPreenchido.svg"
 import { useFocus } from "../../hooks/focus"
 
 function SignIn() {
-  const [redirect, setRedirect] = useState(false) // Adicione aqui
+  const [redirect, setRedirect] = useState(false)
   const [selectState, setSelectState] = useState(true)
 
   const [formData, setFormData] = useState({

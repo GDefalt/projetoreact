@@ -36,6 +36,9 @@ nav {
   width: 63%;
 }
 
+
+
+
 .linksNav {
   list-style: none;
   display: flex;
@@ -114,6 +117,41 @@ nav {
   display: none;
 }
 
+
+/* Adicione estas regras CSS no seu arquivo navbar.css */
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 6rem; /* ou ajuste conforme necessário */
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.active {
+  display: flex;
+}
+
+.burgerLines.active {
+  background-color: #7bcdd1; /* ou a cor desejada para indicar ativo */
+}
+
+.activeNavbarMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 3.7rem;
+  height: 100%;
+  border: none;
+  background: none;
+  cursor: pointer; /* Adicione isso para indicar que é clicável */
+}
+
+
 @media (max-width: 1200px) {
   .Logo > h1 {
   font-size: 2.3rem;
@@ -153,7 +191,7 @@ nav {
 }
 }
 
-@media (max-width: 900px) {
+ @media (max-width: 900px) {
   .completeNavbar {
     display: none;
   }
@@ -175,4 +213,7 @@ nav {
     background-color: black;
     height: 0.6rem;
   }
- }
+ } 
+
+
+
