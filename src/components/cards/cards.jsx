@@ -1,4 +1,7 @@
 import happywheels from "../../assets/happywheels.jpg"
+import agario from "../../assets/agario.jpg"
+import slitherio from "../../assets/slitherio.jpg"
+import shellshockers from "../../assets/shell.avif"
 
 import "bootstrap/dist/css/bootstrap.css"
 
@@ -11,34 +14,34 @@ function Cards() {
   <div className="card" style={{ width: '30rem', height: '42rem' }}>
 <img src={happywheels} className="card-img-top" alt="..."/>
 <div className="card-body">
-  <h5 className="card-title">Card title</h5>
-  <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ex libero sequi itaque assumenda officiis eius. In corporis consequuntur esse architecto saepe, eos distinctio odit quos repellat quod itaque adipisci.</p>
+  <h5 className="card-title">Happy Wheels</h5>
+  <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur, rerum nostrum debitis autem fuga cupiditate. Sunt repellat perferendis ab magnam eius perspiciatis quia sapiente, suscipit placeat. Similique, consequuntur natus.</p>
   <a href="#" className="btn btn-primary">Go somewhere</a>
 </div>
 </div>
 
 <div className="card" style={{width: '30rem', height: '42rem'  }}>
-<img src={happywheels} className="card-img-top" alt="..."/>
+<img src={agario} className="card-img-top" alt="..."/>
 <div className="card-body">
-  <h5 className="card-title">Card title</h5>
-  <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perferendis blanditiis dolorem! Nihil rem, voluptatem, amet placeat voluptas accusamus nisi mollitia iure dolorem voluptatibus fugit. Veniam perspiciatis eos incidunt.</p>
+  <h5 className="card-title">Agario</h5>
+  <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur, rerum nostrum debitis autem fuga cupiditate. Sunt repellat perferendis ab magnam eius perspiciatis quia sapiente, suscipit placeat. Similique, consequuntur natus.</p>
   <a href="#" className="btn btn-primary">Go somewhere</a>
 </div>
 </div>
 
 <div className="card" style={{ width: '30rem', height: '42rem'  }}>
-<img src={happywheels} className="card-img-top" alt="..."/>
+<img src={slitherio} className="card-img-top" alt="..."/>
 <div className="card-body">
-  <h5 className="card-title">Card title</h5>
-  <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi minima ratione sunt porro iste maxime vitae! Officia deserunt aut rem voluptatibus doloremque. Possimus eius necessitatibus porro quasi maxime modi? </p>
+  <h5 className="card-title">Slitherio</h5>
+  <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur, rerum nostrum debitis autem fuga cupiditate. Sunt repellat perferendis ab magnam eius perspiciatis quia sapiente, suscipit placeat. Similique, consequuntur natus.</p>
   <a href="#" className="btn btn-primary">Go somewhere</a>
 </div>
 </div>
 
 <div className="card" style={{width: '30rem', height: '42rem'  }}>
-<img src={happywheels} className="card-img-top" alt="..."/>
+<img src={shellshockers} className="card-img-top" alt="..."/>
 <div className="card-body">
-  <h5 className="card-title">Card title</h5>
+  <h5 className="card-title">Shell Shockers</h5>
   <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur, rerum nostrum debitis autem fuga cupiditate. Sunt repellat perferendis ab magnam eius perspiciatis quia sapiente, suscipit placeat. Similique, consequuntur natus.</p>
   <a href="#" className="btn btn-primary">Go somewhere</a>
 </div>
