@@ -90,3 +90,16 @@
 .container-carrossel-unico > .contain2 >  .img3:hover .title-contain3 {
   opacity: 1;
 }
+
+
+#carrossel2,
+#carrossel3 {
+  transform: translateX(110%) translateY(-100%);
+  display: none;
+}
+
+.carrossel-container.carrossel-1 #carrossel2,
+.carrossel-container.carrossel-2 #carrossel3 {
+  transform: translateX(0%);
+  display: flex;
+}

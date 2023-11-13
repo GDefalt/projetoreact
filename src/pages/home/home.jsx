@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.css"
 import Navbar from "../../components/navbar/navbar"
 import Footer from "../../components/footer/Footer";
 import Carrossel from "../../components/carrossel/carrossel";
+import Cards from "../../components/cards/cards";
+
 import './home.css'
 function home() {
   return (
@@ -12,6 +14,8 @@ function home() {
 
         <Carrossel />
         
+        <Cards />
+
         <Footer />
 
      </div>
